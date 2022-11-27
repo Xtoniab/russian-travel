@@ -1,9 +1,16 @@
 .header__lang-options{
   position: relative;
-  top: -15;
+  top: -5px;
   display: flex;
-  gap: 18px;
+  justify-content: space-between;
   align-self: flex-end;
   width: 77px;
   height: 28px;
+}
+
+@media only screen and (max-width: 320px) {
+  .header__lang-options {
+    top:0;
+    width: 62px;
+  }
 }

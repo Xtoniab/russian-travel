@@ -5,7 +5,7 @@
   row-gap: 48px;
   column-gap: 40px;
   /* Maybe 1fr 1fr ?*/
-  grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 1fr);
+  grid-template-columns: minmax(min-content, 95fr) minmax(min-content, 100fr);
   grid-template-rows: minmax(1fr, min-content) 3fr;
   align-items: stretch;
   grid-template-areas:
@@ -28,7 +28,7 @@
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 600px) {
   .place {
    display: flex;
    flex-direction: column;

@@ -1,3 +1,21 @@
 .place__paragraph{
-
+  margin: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.63;
+  margin-bottom: 25px;
+  width: 100%;
 }
+
+.place__paragraph:last-of-type{
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
+}
+

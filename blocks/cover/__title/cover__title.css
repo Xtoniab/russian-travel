@@ -5,6 +5,8 @@
   font-size: 72px;
   line-height: 1.06;
   text-align: center;
+  align-self: center;
+
   max-width: 560px;
   margin: 0;
 }

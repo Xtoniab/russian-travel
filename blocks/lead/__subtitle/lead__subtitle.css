@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  line-height: 36px;
+  line-height: 1.2;
   text-align: center;
   margin: 32px auto 0;
   max-width: 640px;
@@ -12,7 +12,7 @@
 @media only screen and (max-width: 320px) {
   .lead__subtitle {
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.25;
     margin-top: 16px;
   }
 }
