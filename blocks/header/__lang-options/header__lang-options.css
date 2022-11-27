@@ -1,0 +1,9 @@
+.header__lang-options{
+  position: relative;
+  top: -15;
+  display: flex;
+  gap: 18px;
+  align-self: flex-end;
+  width: 77px;
+  height: 28px;
+}

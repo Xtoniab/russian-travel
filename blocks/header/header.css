@@ -1,0 +1,24 @@
+.header{
+  position: relative;
+  display: flex;
+  margin: 0px 48px;
+  padding-top: 28px;
+  height: 52px;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    margin: 0px 24px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .header {
+    height: 42px;
+    margin: 0px 16px;
+    padding-top: 16px;
+  }
+}
+
+
