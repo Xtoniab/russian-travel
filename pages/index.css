@@ -35,6 +35,7 @@
 /* Photo Grid */
 @import url("../blocks/photo-grid/photo-grid.css");
 @import url("../blocks/photo-grid/__item/photo-grid__item.css");
+@import url("../blocks/photo-grid/__title/photo-grid__title.css");
 
 /* Places */
 @import url("../blocks/places/places.css");
