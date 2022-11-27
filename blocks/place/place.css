@@ -4,9 +4,7 @@
   display: grid;
   row-gap: 48px;
   column-gap: 40px;
-  /* Maybe 1fr 1fr ?*/
-  grid-template-columns: minmax(min-content, 95fr) minmax(min-content, 100fr);
-  grid-template-rows: minmax(1fr, min-content) 3fr;
+  grid-template-columns: repeat(2, minmax(min-content, 1fr));
   align-items: stretch;
   grid-template-areas:
   "title website"
@@ -23,7 +21,6 @@
 
 @media only screen and (max-width: 768px) {
   .place {
-    row-gap: 48px;
     column-gap: 28px;
   }
 }

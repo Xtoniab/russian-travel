@@ -1,16 +1,8 @@
 .header__lang-options{
-  position: relative;
-  top: -5px;
+  list-style: none;
+  margin: 0;
   display: flex;
-  justify-content: space-between;
+  gap: 18px;
   align-self: flex-end;
-  width: 77px;
-  height: 28px;
-}
-
-@media only screen and (max-width: 320px) {
-  .header__lang-options {
-    top:0;
-    width: 62px;
-  }
+  margin-bottom: 5px;
 }
