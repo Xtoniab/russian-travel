@@ -1,4 +1,4 @@
-# How To Learn
+# Travel to Russia
 
 A web page, which contain information about beautiful places in russia. [Live Demo](https://xtoniab.github.io/russian-travel/)
 
