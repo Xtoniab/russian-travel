@@ -12,7 +12,7 @@
 <body>
   <div class="page">
     <header class="header">
-      <img src="images/header-logo.svg" alt="Россия">
+      <img class="header__logo" src="images/header-logo.svg" alt="Россия">
       <ul class="header__lang-options">
         <li><a class="header__lang-link header__lang-link_active link" href="#">Ru</a></li>
         <li><a class="header__lang-link link" href="#">En</a></li>
@@ -41,26 +41,13 @@
             в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и
             описали некоторые интересные места, достойные вашего отпуска.</p>
           <ul class="intro__list">
-            <li>
-              <h3 class="intro__list-item-title">Часовых поясов</h3>
-              <p class="intro__list-item-value">11</p>
-            </li>
-            <li>
-              <h3 class="intro__list-item-title">Объектов природного наследия ЮНЕСКО</h3>
-              <p class="intro__list-item-value">12</p>
-            </li>
-            <li>
-              <h3 class="intro__list-item-title">Объектов культурного наследия ЮНЕСКО</h3>
-              <p class="intro__list-item-value">16</p>
-            </li>
-            <li>
-              <h3 class="intro__list-item-title">Природных заповедников</h3>
-              <p class="intro__list-item-value">105</p>
-            </li>
-            <li>
-              <h3 class="intro__list-item-title">Аэропортов</h3>
-              <p class="intro__list-item-value">241</p>
-            </li>
+            <li class="intro__list-item">Часовых поясов <span class="intro__list-item-value">11</span></li>
+            <li class="intro__list-item">Объектов природного наследия ЮНЕСКО <span
+                class="intro__list-item-value">12</span></li>
+            <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО <span
+                class="intro__list-item-value">16</span></li>
+            <li class="intro__list-item">Природных заповедников <span class="intro__list-item-value">105</span></li>
+            <li class="intro__list-item">Аэропортов <span class="intro__list-item-value">241</span></li>
           </ul>
         </article>
       </section>
@@ -184,13 +171,9 @@
 
       <section class="cover">
         <a class="cover__link" target="_blank" href="https://stampsy.com/na-elektrichkakh-do-baikala">
-          <img class="cover__background" src="images/cover-trains.jpg" alt="Поезда">
-          <div class="cover__overlay"> </div>
-          <div class="cover__info">
-            <h2 class="cover__title">До Байкала «на собаках»</h2>
-            <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
-              электричках.  </p>
-          </div>
+          <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
+            электричках. </p>
         </a>
       </section>
     </main>
